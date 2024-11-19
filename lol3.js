@@ -1,3 +1,6 @@
+
+console.log("text from lol3")
+
 export const jokes = [
     { setup: "Why don't scientists trust atoms?", punchline: "Because they make up everything!" },
     { setup: "What do you call fake spaghetti?", punchline: "An impasta!" },
@@ -53,3 +56,5 @@ export const jokes = [
 ];
 
 // module.exports = { jokes };
+
+console.log("text from lol3")

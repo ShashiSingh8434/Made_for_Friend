@@ -1,4 +1,4 @@
-import { jokes } from './_13_jokes.js';
+import { jokes } from './lol3.js';
 
 // Log a random joke
 // const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
@@ -13,7 +13,9 @@ function randomjokefull(innerText){
     return (`${joke.setup} - ${joke.punchline}`);
 }
 
-let a = document.getElementsByTagName("div")
+console.log("text from lol2...starting")
+
+let a = document.getElementsByTagName("div");
 
 a[1].innerText = randomjokesetup()
 a[2].innerText = randomjokesetup()
@@ -45,3 +47,5 @@ a[6].addEventListener('click', () => {
 a[7].addEventListener('click', () => {
     a[7].innerText = randomjokefull(a[7].innerText)
 });
+
+console.log("text from lol2....ending")
