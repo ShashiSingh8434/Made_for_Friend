@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    background: linear-gradient(to right, #FF9A8B, #FF6A88, #FF99AC); /* Vibrant gradient */
+    color: #333; /* Contrasting text color */
+    text-align: center;
+}
+
+/* Header section */
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+    margin-top: 50px;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Add some spacing for mobile users */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+#overlay-message {
+    position: fixed; /* Overlay the content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(88, 86, 86, 0.035); /* Semi-transparent black */
+    color: rgb(7, 228, 55);
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    z-index: 10000; /* High z-index to ensure it appears above all content */
+    display: none; /* Initially hidden */
+}
